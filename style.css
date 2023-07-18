@@ -32,7 +32,7 @@ body {
 
 }
 .menu button:hover,
-.note-panel .save:hover
+.note-panel .save:hover,
 .note-panel .cancel:hover{
     background-color: #333;
     color: #ddd;
@@ -113,6 +113,7 @@ body {
     width: 100%;
     min-width: 90%;
     max-width: 90%;
+    min-height: 45px;
     max-height: 600px;
     font-size: 16px;
     border-radius: 7px;
