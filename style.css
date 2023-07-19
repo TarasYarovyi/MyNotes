@@ -55,8 +55,17 @@ body {
 .note {
     margin: 40px 20px;
     width: 240px;
-    background-color: rgb(255, 243, 0);
+    /* background-color: rgb(137, 100, 255); */
     border: 1px solid black;
+}
+.shopping{
+    background-color: rgb(255, 243, 0);
+}
+.work{
+    background-color: rgb(109, 204, 0);
+}
+.other{
+    background-color: rgb(137, 100, 255);
 }
 
 .note-header {
@@ -82,7 +91,7 @@ body {
 
 .note-panel {
     
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -106,14 +115,14 @@ body {
     margin-bottom: 10px;
 }
 
-.note-panel #text,
-.note-panel #category{
+.note-panel #category,
+.note-panel #text {
     margin-bottom: 20px;
     padding: 10px 20px;
-    width: 100%;
+    /* width: 100%; */
     min-width: 90%;
     max-width: 90%;
-    min-height: 45px;
+    min-height: 50px;
     max-height: 600px;
     font-size: 16px;
     border-radius: 7px;
