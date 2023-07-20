@@ -2,7 +2,7 @@
 
 const addBtn = document.querySelector(".add");
 const deleteAllBtn = document.querySelector(".delete-all");
-const deleteNoteBtns = document.getElementsByClassName(".delete-note");
+const deleteNoteBtns = document.getElementsByClassName("delete-note");
 const saveBtn = document.querySelector(".save");
 const cancelBtn = document.querySelector(".cancel");
 const noteArea = document.querySelector(".note-area");
@@ -55,5 +55,4 @@ saveBtn.addEventListener("click", () => {
   text.value = "";
   cardID++;
   category.value = "0";
-  console.log(category.value);
 });
